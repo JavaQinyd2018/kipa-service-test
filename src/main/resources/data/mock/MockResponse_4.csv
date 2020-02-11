@@ -1,0 +1,6 @@
+"cookies","headers","body","reasonPhrase","statusCode","delay"
+"{""hello"":""world""}","{""hello"":""world"",""http"":""1.0""}","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330""},{""id"":1, ""username"":""kobe"",""phone"":""15101287330""}]",错误,400,10
+"{""hello"":""world""}","{""hello"":""world"",""http"":""1.0""}","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330""},{""id"":1, ""username"":""kobe"",""phone"":""15101287330""}]",错误,400,10
+"{""hello"":""world""}","{""hello"":""world"",""http"":""1.0""}","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330""},{""id"":1, ""username"":""kobe"",""phone"":""15101287330""}]",错误,400,10
+"{""hello"":""world""}","{""hello"":""world"",""http"":""1.0""}","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330""},{""id"":1, ""username"":""kobe"",""phone"":""15101287330""}]",错误,400,10
+"{""hello"":""world""}","{""hello"":""world"",""http"":""1.0""}","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330""},{""id"":1, ""username"":""kobe"",""phone"":""15101287330""}]",错误,400,10

@@ -1,0 +1,7 @@
+"class","property","flag","exp"
+"MockResponse","cookies",N,""
+"","headers",N,""
+"","body",L,"[{""id"":1, ""username"":""kobe"",""phone"":""15101287330"",""created"":""1234-09-14""}]"
+"","reasonPhrase",N,""
+"","statusCode","Y",200
+"","delay",N,""

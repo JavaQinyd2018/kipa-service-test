@@ -1,0 +1,7 @@
+"class","property","flag","exp"
+"MockParamRequest","path","Y",""
+"","method","Y",""
+"","cookies","Y",""
+"","headers","Y",""
+"","secure","Y",""
+"","requestParams","Y",""

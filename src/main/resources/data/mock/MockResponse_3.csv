@@ -1,0 +1,7 @@
+"class","property","flag","exp",exp,exp,exp,exp
+"MockResponse","cookies",M,{"hello":"world"},{"hello":"ok"},{"hello":"world"},{"hello":"world"},{"hello":"world"}
+"","headers",M,"{""hello"":""world"",""http"":""1.2""}","{""hello"":""world"",""http"":""1.0""}","{""hello"":""world"",""http"":""1.0""}","{""hello"":""world"",""http"":""1.0""}","{""hello"":""world"",""http"":""1.0""}"
+"","body",L,"[{""id"":1, ""username"":""kobe"",""phone"":""15101287330"",""created"":""1234-09-14""}]","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330"",""created"":""1234-09-14""}]","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330"",""created"":""1234-09-14""}]","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330"",""created"":""1234-09-14""}]","[{""id"":1, ""username"":""kobe"",""phone"":""15101287330"",""created"":""1234-09-14""}]"
+"","reasonPhrase",Y,测试信息,测试信息,测试信息,测试信息,测试信息
+"","statusCode","Y",200,200,200,200,200
+"","delay",Y,10,10,10,10,10

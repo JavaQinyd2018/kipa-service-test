@@ -1,0 +1,7 @@
+"class","property","flag","exp"
+"MockParamRequest","path","Y","/userInfo/showUserInfo"
+"","method","Y",GET
+"","cookies",N,""
+"","headers",N,""
+"","secure","Y",false
+"","requestParams",M,"{""phone"":""15101287330""}"

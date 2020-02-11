@@ -1,0 +1,7 @@
+"class","property","flag","exp","exp"
+"MockParamRequest","path","Y",/userInfo/showUserInfo1,"/userInfo/showUserInfo"
+"","method","Y",GET,POST
+"","cookies",M,"{""username"":""kobe"",""password"":""1234561"",""address"":""nanjiang""}","{""username"":""kobe2"",""password"":""123456"",""address"":""hangzhou""}"
+"","headers",M,"{""book1"":""chinese"",""food"":""hello""}","{""book"":""chinese"",""food"":""goods""}"
+"","secure","Y",false,true
+"","requestParams",M,{"phone":"781931981313"},{"phone":"7819319813131"}
