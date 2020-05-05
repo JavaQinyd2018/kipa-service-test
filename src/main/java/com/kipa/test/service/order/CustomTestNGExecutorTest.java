@@ -17,7 +17,7 @@ public class CustomTestNGExecutorTest {
                 .selectPackage("com.kipa.test.service.run")
                 .build();
         TestNGExecutor<TestNGSpringContextTests> testNGExecutor = new TestNGExecutor<>(TestNGSpringContextTests.class);
-        testNGExecutor.execute(discovery);
+        testNGExecutor.executeClass(discovery);
         //正常执行退出
         System.exit(0);
     }

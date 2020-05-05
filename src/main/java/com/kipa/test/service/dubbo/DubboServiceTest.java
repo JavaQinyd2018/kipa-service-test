@@ -2,7 +2,9 @@ package com.kipa.test.service.dubbo;
 
 import com.alibaba.dubbo.remoting.exchange.ResponseCallback;
 import com.alibaba.fastjson.JSONObject;
+import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Maps;
+import com.google.common.collect.Multimap;
 import com.kipa.base.BasicTestNGSpringContextTests;
 import com.kipa.dubbo.excute.DubboRequest;
 import com.kipa.dubbo.excute.DubboResponse;
@@ -22,7 +24,7 @@ public class DubboServiceTest extends BasicTestNGSpringContextTests {
     DubboService dubboService;
     @Test
     public void testSyncParam() {
-        Map<String, Object> paramMap = Maps.newHashMap();
+        Multimap<String, Object> paramMap = ArrayListMultimap.create();
         paramMap.put(String.class.getName(),"15101287330");
         String result = dubboService.invoke("com.learn.springboot.springbootssmp.dubbo.UserInfoDubboService", "queryUserInfoByPhoneNo", paramMap);
         PrintUtils.println(result);
@@ -42,7 +44,7 @@ public class DubboServiceTest extends BasicTestNGSpringContextTests {
     @Test
     public void testSyncObject() {
         String json = "{\"phone\":\"15101287330\",\"email\":\"qinyadong@huawei.com\"}";
-        Map<String, Object> paramMap = Maps.newHashMap();
+        Multimap<String, Object> paramMap = ArrayListMultimap.create();
         paramMap.put("com.learn.springboot.springbootssmp.ro.UserRo", JSONObject.parseObject(json));
         String result = dubboService.invoke("com.learn.springboot.springbootssmp.dubbo.UserInfoDubboService", "getInfo", paramMap);
         PrintUtils.println(result);
@@ -53,7 +55,7 @@ public class DubboServiceTest extends BasicTestNGSpringContextTests {
         Map<String, Object> request = Maps.newHashMap();
         request.put("phone","15101287330");
         request.put("email","qinyadong@huawei.com");
-        Map<String, Object> paramMap = Maps.newHashMap();
+        Multimap<String, Object> paramMap = ArrayListMultimap.create();
         paramMap.put("com.learn.springboot.springbootssmp.ro.UserRo", request);
         String result = dubboService.invoke("com.learn.springboot.springbootssmp.dubbo.UserInfoDubboService", "getInfo", paramMap);
         PrintUtils.println(result);
@@ -63,7 +65,7 @@ public class DubboServiceTest extends BasicTestNGSpringContextTests {
 
     @Test
     public void testAsyncParam() {
-        Map<String, Object> paramMap = Maps.newHashMap();
+        Multimap<String, Object> paramMap = ArrayListMultimap.create();
         paramMap.put(String.class.getName(),"15101287330");
         dubboService.asyncInvoke(
                 "com.learn.springboot.springbootssmp.dubbo.UserInfoDubboService",

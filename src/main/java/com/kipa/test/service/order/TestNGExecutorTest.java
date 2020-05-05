@@ -14,6 +14,6 @@ public class TestNGExecutorTest {
                 .selectPackage("com.kipa.test.service.order")
                 .build();
         DefaultTestNGExecutor executor = new DefaultTestNGExecutor();
-        executor.execute(discovery);
+        executor.executeClass(discovery);
     }
 }
